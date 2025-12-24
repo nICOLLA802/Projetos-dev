@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+    border:0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:externa ;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+body{
+    background-color:hsl(47, 88%, 63%);
+    font-family: externa;
+
+}
+main{
+    display:flex;
+    justify-content:center;
+    flex-flow:row nowrap;
+   align-items:center;
+   margin: 100px;
+   width: auto;
+   height: auto;
+   
+
+
+   
+  
+}
+#caixa1{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+}
+div{
+    background-color: white;
+   padding:10px;
+   border-radius: 20px;
+   box-shadow: 1px 1px 1px 1px black;
+   
+ 
+
+}
+#caixa2{
+    background-color: yellow;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    width: 90px;
+}
+img#imagem1{
+    width:auto;
+    border-radius:20px;
+}
